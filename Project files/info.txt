@@ -1,0 +1,9 @@
+we want to code three lines that when you win when you have a match in one lines
+
+How to install NVM
+https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/ \
+
+How to install node version
+nvm install v20.15.1
+nvm list
+nvm use 20.15.1

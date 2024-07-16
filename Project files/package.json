@@ -1,0 +1,14 @@
+{
+  "name": "javascript-project-2024",
+  "version": "1.0.0",
+  "description": "Javascript Project that will create a slot machine using fake money",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
