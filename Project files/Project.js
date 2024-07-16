@@ -1,9 +1,11 @@
 //1. Deposit some money
 //  the const depossit what it does it asks for user input for money can only input numbers but not letters
 //2.Determine number of lines to bet on
-//  Only up to three
+//  Only up to three lines you can bet on due to the factss there are three slots
 //3. Collect a bet amount
+// The Bet Amount is Off the depositted amount
 //4. Spin the slot machine
+//  It randomises 
 //5. Check if the user won
 //6. Give the user their winnings
 //7. Play again
