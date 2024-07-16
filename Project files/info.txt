@@ -7,3 +7,24 @@ How to install node version
 nvm install v20.15.1
 nvm list
 nvm use 20.15.1
+
+
+What did i learn in this small project
+-  The game simulates spinning reels, calculates winnings based on matching symbols, and allows players to continue playing until they run out of money or choose to stop
+- Through the code i was able to learn how to implement simple game logic and simple handling inputs and by managing a basic gambling game using imple javascript.
+
+This code implements a slot machine game that follows these steps:
+//1. Deposit some money
+The deposit() function prompts the user to enter a valid deposit amount, ensuring it's a positive number.
+//2. Determine number of lines to bet on
+getNumberOfLines() asks the user to choose how many lines they want to bet on (1-3).
+//3. Collect a bet amount
+getBet() function collects the bet amount per line, making sure it's within the user's balance.
+//4. Spin the slot machine
+The spin() function simulates the slot machine, generating random symbols for each reel.
+//5. Check if the user won
+getWinnings() checks the rows for matching symbols to determine if the user won.
+//6. Give the user their winnings
+The game calculates and adds winnings to the user's balance, displaying the amount won.
+//7. Play again
+The game loops, allowing the user to play again until they run out of money or choose to stop.
